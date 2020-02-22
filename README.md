@@ -7,7 +7,7 @@ This application is [clone](https://github.com/eugenemdev/spa-mvc-router) and wa
 - clone to your's directory
 `git clone https://github.com/eugenemdev/simple-test-server.git` 
 - go to the directory
-`cd /simple-test-server`
+`cd simple-test-server`
 - install packages
 `npm install --save-dev`
 - build frontend
