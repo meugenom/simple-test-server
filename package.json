@@ -1,0 +1,48 @@
+{
+  "name": "simple-test-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"node server.js",
+    "dev": "live-server src --verbose",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eugenemdev/spa-mvc-router.git"
+  },
+  "keywords": [
+    "spa",
+    "javascript",
+    "es6"
+  ],
+  "author": "eugenemdev",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "copy-webpack-plugin": "^5.1.1",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.7"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.8.3",
+    "@babel/runtime": "^7.1.2",
+    "html-webpack-plugin": "^3.2.0",
+    "services": "0.0.3"
+  },
+  "bugs": {
+    "url": "https://github.com/eugenemdev/spa-mvc-router/issues"
+  },
+  "homepage": "https://github.com/eugenemdev/spa-mvc-router#readme"
+}
