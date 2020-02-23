@@ -1,16 +1,12 @@
 'use strict'
-
 /**
  * Controller for component Register
  * @returns html to view register form
  */
 
 class Register {
-
-    constructor(){ }
-
-    render() {
-        return /*html*/ `
+  render () {
+    return /* html */ `
             <section class="section">
             <form>
                 <div class="form-group">
@@ -37,11 +33,10 @@ class Register {
 
             </section>
         `
-    }
-    // All the code related to DOM interactions and controls go in here.
-    // This is a separate call as these can be registered only after the DOM has been painted
-    after_render() {                
-    }
+  }
+
+  afterRender () {
+  }
 }
 
-export default Register;
+export default Register

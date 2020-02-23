@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 /**
  * View for component BottomBar
@@ -6,17 +6,14 @@
  */
 
 class View {
-    constructor(){           
-    }   
-
-    appendBar(){        
-        let view =  /*html*/`
+  appendBar () {
+    const view = /* html */`
         <nav class="navbar fixed-bottom navbar-dark bg-dark">
             <a class="navbar-brand" href="#">Here will be a contact</a>
         </nav>        
         `
-        return view
-    }
+    return view
+  }
 }
 
-export default View;
+export default View
